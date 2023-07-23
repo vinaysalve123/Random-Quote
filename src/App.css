@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: linear-gradient(#6dd5ed, #2193b0 );
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,11 +28,29 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Title{
+  text-decoration: underline;
+}
+.Quote{
+  font-style: italic;
+  font-size: 35px;
+  color: rgb(255, 0, 0);
+  padding: 1.2rem;
+  border-radius: 25px;
+}
+.Author{
+  font-style: italic;
+  font-size: 30px;
+  color: rgb(70, 0, 0);
+  padding-bottom: 1.2rem;
+  border-radius: 25px;
+}
+.Generator{
+  background-color:#adabab;
+  color: black;
+  border: black 1px solid;
+  border-radius: 25px;
+  font-size: 20px;
+  margin-top: 1rem;
+  font-weight: bold;
 }
